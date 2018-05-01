@@ -1,21 +1,21 @@
 ---
 layout: page
 title: About
-description: Little information about the human behind this site.
-keywords: about page, about me, heiswayi nrird, the author
+description: 
+keywords: about page, about me, abhinav das, about abhinav, das das, abhinav das, the author
 ---
 
-Hello.
+Namaskaar!
 
-I'm Heiswayi Nrird, or just call me "Wayi" for short. A Software Engineer at [Keysight Technologies](https://www.keysight.com), Penang, Malaysia. I experiment, code and build some stuffs. Sometimes, I love to [click with my camera](https://heiswayi.github.io/my-photography/) and explore the beauty of nature (hiking). Some of my works[^1] have shared/published on [GitHub](https://github.com/heiswayi), [Gist](https://heiswayi.github.io/my-gists/), [CodePen](https://codepen.io/heiswayi/) and [JSFiddle](https://jsfiddle.net/user/heiswayi/). For professional experience, check out [my online resume here ⤯•••](https://heiswayi.github.io/resume/) or connect with me on [LinkedIn](https://my.linkedin.com/in/nrird). I can be contacted at [hnrird@gmail.com](mailto:hnrird@gmail.com).
+I'm Abhinav Das. I go by various aliases including "Abhi," supay, phantomcoder and 0x23212f. I am a innovation specialist with deep software engineering and architecture background. I currently serve as the Head of Innovation at [Hexon Global LLC](https://hexonglobal.com) and also as a Director at [Teqsense](https://teqsense.com) - my venture builder business. I experiment, code, dream, build and break stuff. Things that interest me the most today are blockchain, AI/ML, RPA, computer vision, cybersecurity and IoT. I'm also interested in the convergence of two or more of these technologies. You may connect with me on [LinkedIn](https://linkedin.com/in/theabhinavdas) or on [Twitter](https://twitter.com/theabhinavdas). I can be contacted at - x at abhinav das dot com. 
 
-I also run [nrird·xyz](https://nrird.xyz), a personal project called creative studio that focuses on UX design, front-end app development and data visualization.
+Interestingly, the technology field might not be my true passion. I love making people laugh - there's something special about that. I do stand-up comedy in my spare time. I also play the violin in the hindustani classical style of the Maihar gharana.
 
 ---
 
 #### Site Colophon
 
-This site is a place I share my thoughts, opinions, reviews, ideas, personal[^2] projects or findings. This site is built with the excellent [Jekyll](https://jekyllrb.com), a static site generator and automatically hosted on [GitHub Pages](https://pages.github.com/). The layout of this site (Jekyll theme) is designed or hand-made by me with a passion of simplicity. The source code for this site is available on [GitHub](https://github.com/heiswayi/heiswayi.github.io) and licensed under [MIT License](https://heiswayi.github.io/mit-license).
+This site is a place I share my thoughts, opinions, reviews, ideas, personal[^1] projects or findings. This website does, in no manner, represent the thoughts of anybody or entity but my own. I'm raving mad, and my essays will reflect that.
 
 #### Site Disclaimer
 
@@ -23,7 +23,6 @@ This site is a place I share my thoughts, opinions, reviews, ideas, personal[^2]
 
 #### Licensing
 
-Unless otherwise stated, all original code snippets presented on this blog are licensed under [MIT License](https://heiswayi.github.io/mit-license). All original photographs and texts (blog articles) on this blog are licensed under [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/).
+Unless otherwise stated, all original code snippets presented on this blog are licensed under [MIT License](https://theabhinavdas.github.io/mit-license). All original texts (blog articles) on this blog are licensed under [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/).
 
-[^1]: Some of the projects may be obselete or unmaintained, only for the archive purpose.
-[^2]: Sometimes, it could be just a hobby stuff.
+[^1]: Sometimes, purely hobby stuff.

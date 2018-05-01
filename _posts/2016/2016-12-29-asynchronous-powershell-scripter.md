@@ -16,34 +16,34 @@ Asynchronous PowerShell Scripter is just another PowerShell scripter tool made i
 
 ### Screenshots
 
-![Loading all preset scripts](http://i.imgur.com/jwH7z94.png)
+![Loading all preset scripts](https://i.imgur.com/jwH7z94.png)
 
 Figure 1 (above): During application startup or adding/removing preset script will display this Loader overlay to show that the application is loading/reloading all preset script files from `presets` folder.
 
 
-![Application GUI](http://i.imgur.com/QIiIiPb.png)
+![Application GUI](https://i.imgur.com/QIiIiPb.png)
 
 Figure 2 (above): This is how the application is looked like, the GUI.
 
 
-![Executing PowerShell script](http://i.imgur.com/aumSwRz.png)
+![Executing PowerShell script](https://i.imgur.com/aumSwRz.png)
 
 Figure 3 (above): Example of executing PowerShell script from selected preset script. The application can be maximized for better Output view.
 
 
-![Selecting output lines](http://i.imgur.com/wkeT8Yo.png)
+![Selecting output lines](https://i.imgur.com/wkeT8Yo.png)
 
 Figure 4 (above): Example of selecting output lines for exporting to a text file.
 
 
-![Save current script as new preset script](http://i.imgur.com/cJBS41G.png)
+![Save current script as new preset script](https://i.imgur.com/cJBS41G.png)
 
-![Define new preset script title](http://i.imgur.com/DGwi2J7.png)
+![Define new preset script title](https://i.imgur.com/DGwi2J7.png)
 
 Figure 5 & 6 (above): Example of saving current script as a new preset script.
 
 
-![Importing PowerShell script file](http://i.imgur.com/D6rnHDz.png)
+![Importing PowerShell script file](https://i.imgur.com/D6rnHDz.png)
 
 Figure 7 (above): Menu to import script from PowerShell script file (.ps1).
 

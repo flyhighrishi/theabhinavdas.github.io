@@ -257,18 +257,18 @@ namespace MultithreadingVsSingleThreading
 
 ### Screenshots
 
-![Multithreading vs Single Threading Example #1](http://i.imgur.com/q19Eigj.png)
+![Multithreading vs Single Threading Example #1](https://i.imgur.com/q19Eigj.png)
 
 _Figure 1 (above): Showing few options of multithreadings._
 
-![Multithreading vs Single Threading Example #2](http://i.imgur.com/3YQTqCA.png)
+![Multithreading vs Single Threading Example #2](https://i.imgur.com/3YQTqCA.png)
 
 _Figure 2 (above): Example of multithreading using `ThreadPool.QueueUserWorkItem()`._
 
 ### Notes on multithreading classes
 
-- The `Thread` class is used for creating and manipulating a [thread](http://msdn.microsoft.com/en-us/library/windows/desktop/ms684841%28v=vs.85%29.aspx) in Windows.
-- A `Task` represents asynchronous operation and is part of the [Task Parallel Library](http://msdn.microsoft.com/en-us/library/dd460717%28v=vs.110%29.aspx), a set of APIs for running tasks asynchronously and in parallel.
+- The `Thread` class is used for creating and manipulating a [thread](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684841%28v=vs.85%29.aspx) in Windows.
+- A `Task` represents asynchronous operation and is part of the [Task Parallel Library](https://msdn.microsoft.com/en-us/library/dd460717%28v=vs.110%29.aspx), a set of APIs for running tasks asynchronously and in parallel.
 - The `ThreadPool` class manages a group of threads in which tasks are added to a queue and automatically started when threads are created.
 - The `BackgroundWorker` class executes an operation on a separate thread.
 

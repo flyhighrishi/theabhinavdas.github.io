@@ -18,7 +18,7 @@ The implementation consists of four functions:-
 * `password_needs_rehash()` : To check if a password meets the desired hash settings (algorithm, cost)
 * `password_get_info()` : To return information about the hash such as algorithm and cost
 
-**NOTE:** `password_hash()` creates a new password hash using a strong one-way hashing algorithm and compatible with [**crypt()**](http://php.net/manual/en/function.crypt.php).
+**NOTE:** `password_hash()` creates a new password hash using a strong one-way hashing algorithm and compatible with [**crypt()**](https://php.net/manual/en/function.crypt.php).
 
 ### Usage Examples
 
@@ -215,10 +215,10 @@ A cryptographic salt is a data which is applied during the hashing process in or
 
 When using `password_hash()` or `crypt()`, the return value includes the salt as part of the generated hash. This value should be stored verbatim in your database, as it includes information about the hash function that was used and can then be given directly to `password_verify()` or `crypt()` when verifying passwords.
 
-![Password Hash](http://i.imgur.com/9cmcBRo.png)
+![Password Hash](https://i.imgur.com/9cmcBRo.png)
 
 The diagram above shows the format of a return value from `crypt()` or `password_hash()`. As you can see, they are self-contained, with all the information on the algorithm and salt required for future password verification.
 
 ### Conclusion
 
-With this new [password extension](http://php.net/password) that comes as built-in functions, the password hashing becomes more easier as we don't need to create our custom-made algorithm class or use any other external password hashing class library in our application anymore.
+With this new [password extension](https://php.net/password) that comes as built-in functions, the password hashing becomes more easier as we don't need to create our custom-made algorithm class or use any other external password hashing class library in our application anymore.

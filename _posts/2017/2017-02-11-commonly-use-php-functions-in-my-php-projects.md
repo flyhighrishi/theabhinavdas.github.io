@@ -73,7 +73,7 @@ function sanitize($string) {
 ```php
 <?php
 function getGravatar($email, $default = 'retro', $size = '50') {
-    return "http://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) . "?d=" . urlencode($default) . "&s=" . $size;
+    return "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) . "?d=" . urlencode($default) . "&s=" . $size;
 }
 ?>
 ```
@@ -296,7 +296,7 @@ function autolink($message, $strip_tags = false) {
     }
 
     // Convert all URLs to clickable links
-    $message     = preg_replace('#([s|^])(www)#i', '$1http://$2', $message);
+    $message     = preg_replace('#([s|^])(www)#i', '$1https://$2', $message);
     $pattern     = '#((http|https|ftp|telnet|news|gopher|file|wais)://[^s]+)#i';
     $replacement = '<a href="$1" target="_blank">$1</a>';
     $message     = preg_replace($pattern, $replacement, $message);

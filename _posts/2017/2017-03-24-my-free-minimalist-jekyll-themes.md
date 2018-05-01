@@ -15,11 +15,11 @@ Jekyll theme is a template for the best static site generator called [Jekyll](ht
 
 ### 1. The Plain (2015)
 
-![The Plain Screenshot](http://i.imgur.com/8ZXhjfV.png)
+![The Plain Screenshot](https://i.imgur.com/8ZXhjfV.png)
 
 The Plain is a minimalist Jekyll theme best for personal blog.
 <br>
-[**Live Demo**](http://heiswayi.github.io/the-plain) // [Source Code](https://github.com/heiswayi/the-plain) // MIT License
+[**Live Demo**](https://heiswayi.github.io/the-plain) // [Source Code](https://github.com/heiswayi/the-plain) // MIT License
 
 <a class="github-button" href="https://github.com/heiswayi/the-plain" data-icon="octicon-star" data-style="mega" data-count-href="/heiswayi/the-plain/stargazers" data-count-api="/repos/heiswayi/the-plain#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star heiswayi/the-plain on GitHub">Star</a> <a class="github-button" href="https://github.com/heiswayi/the-plain/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/heiswayi/the-plain/network" data-count-api="/repos/heiswayi/the-plain#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork heiswayi/the-plain on GitHub">Fork</a>
 
@@ -27,11 +27,11 @@ The Plain is a minimalist Jekyll theme best for personal blog.
 
 ### 2. Thinkspace (2016)
 
-![Thinkspace Screenshot](http://i.imgur.com/IMQDB9e.png)
+![Thinkspace Screenshot](https://i.imgur.com/IMQDB9e.png)
 
 Thinkspace is a minimalist Jekyll theme best for technical writing.
 <br>
-[**Live Demo**](http://heiswayi.github.io/thinkspace) // [Source Code](https://github.com/heiswayi/thinkspace) // MIT License
+[**Live Demo**](https://heiswayi.github.io/thinkspace) // [Source Code](https://github.com/heiswayi/thinkspace) // MIT License
 
 <a class="github-button" href="https://github.com/heiswayi/thinkspace" data-icon="octicon-star" data-style="mega" data-count-href="/heiswayi/thinkspace/stargazers" data-count-api="/repos/heiswayi/thinkspace#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star heiswayi/thinkspace on GitHub">Star</a> <a class="github-button" href="https://github.com/heiswayi/thinkspace/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/heiswayi/thinkspace/network" data-count-api="/repos/heiswayi/thinkspace#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork heiswayi/thinkspace on GitHub">Fork</a>
 
@@ -39,11 +39,11 @@ Thinkspace is a minimalist Jekyll theme best for technical writing.
 
 ### 3. TextLog (2017)
 
-![TextLog Screenshot](http://i.imgur.com/StRXiZt.png)
+![TextLog Screenshot](https://i.imgur.com/StRXiZt.png)
 
 TextLog is a minimalist Jekyll theme best for documentation.
 <br>
-[**Live Demo**](http://heiswayi.github.io/textlog) // [Source Code](http://github.com/heiswayi/textlog) // MIT License
+[**Live Demo**](https://heiswayi.github.io/textlog) // [Source Code](https://github.com/heiswayi/textlog) // MIT License
 
 <a class="github-button" href="https://github.com/heiswayi/textlog" data-icon="octicon-star" data-style="mega" data-count-href="/heiswayi/textlog/stargazers" data-count-api="/repos/heiswayi/textlog#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star heiswayi/textlog on GitHub">Star</a> <a class="github-button" href="https://github.com/heiswayi/textlog/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/heiswayi/textlog/network" data-count-api="/repos/heiswayi/textlog#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork heiswayi/textlog on GitHub">Fork</a>
 
@@ -51,7 +51,7 @@ TextLog is a minimalist Jekyll theme best for documentation.
 
 ### 4. heiswayi nrird •••
 
-![This site screenshot](http://i.imgur.com/pdd5iPN.png)
+![This site screenshot](https://i.imgur.com/pdd5iPN.png)
 
 This is my personal Jekyll theme for my blog (this site) and I have been using it since few years ago. Since then, I kept updating or making changes, from time to time until what it looked like today.
 <br>

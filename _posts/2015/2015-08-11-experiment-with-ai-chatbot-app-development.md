@@ -9,7 +9,7 @@ comments: true
 
 ### AI chatbot using mIRC scripting
 
-The first chatbot program I ever created is using [mIRC](http://www.mirc.com/) scripting. Back in 2004 ~ 2007, I used mIRC program to connect to [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) networks and started chatting with other people. However, other than just for chatting, mIRC also has a powerful scripting language which we called it 'Remote' under mIRC Editor. From there, I had been learning, experimenting and writing my own mIRC scripts. There are many things we can do with mIRC scripting feature. To name a few, people wrote the scripts to protect the chatroom (IRC channel) from user spamming (we called it 'channel flooding'), creating their own music player, hosting and running a quiz bot in the IRC channels and many more. A lot of creative stuffs from creative scripters.
+The first chatbot program I ever created is using [mIRC](https://www.mirc.com/) scripting. Back in 2004 ~ 2007, I used mIRC program to connect to [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) networks and started chatting with other people. However, other than just for chatting, mIRC also has a powerful scripting language which we called it 'Remote' under mIRC Editor. From there, I had been learning, experimenting and writing my own mIRC scripts. There are many things we can do with mIRC scripting feature. To name a few, people wrote the scripts to protect the chatroom (IRC channel) from user spamming (we called it 'channel flooding'), creating their own music player, hosting and running a quiz bot in the IRC channels and many more. A lot of creative stuffs from creative scripters.
 
 But for user like me, I also played 'revenge' - a scripting battle to test the scripting (programming) performance - by _kicking_ each other from the IRC channel. After some time, things get a little boring and I started building a chatbot using mIRC scripting. I actually had a dream to make my IRC chatbot intelligent enough, but due to lack of AI knowledge, I was not able to create a proper so-called "AI" chatbot. What I could do was I created my chatbot just by using a direct input-output matching response. Basically it was almost the same concept that has been used to create the quiz bot. At the end, it was good enough for me as my chatbot can do "simple keyword-matching conversation" with the users in the IRC channels. Good enough to keep the channel from being too silence. To be advanced, my chatbot also can play 'revenge' and retrieve certain commands from me to execute certain tasks.
 
@@ -121,45 +121,45 @@ If you're ever used mIRC before, in case you want to see some of my mIRC scripts
 
 After few years passed, this "AI chatbot" thing came back into my mind. And for this time, I wanted to develop it using .NET C# programming (WinForms). I used SQLite to save each possible inputs and output responses, so whenever the application received inputs that are matched, the application will immediately respond with possible outputs. Then, my AI chatbot called "NALIKA" was born. Pretty simple and basics. Not really "AI". Below are the screenshots how the application is looked like:
 
-[![NALIKA v1 - Screenshot #1](http://i.imgur.com/F1n1W0N.png)](http://i.imgur.com/F1n1W0N.png)
+[![NALIKA v1 - Screenshot #1](https://i.imgur.com/F1n1W0N.png)](https://i.imgur.com/F1n1W0N.png)
 
-[![NALIKA v1 - Screenshot #2](http://i.imgur.com/IkAKC9p.png)](http://i.imgur.com/IkAKC9p.png)
+[![NALIKA v1 - Screenshot #2](https://i.imgur.com/IkAKC9p.png)](https://i.imgur.com/IkAKC9p.png)
 
-[![NALIKA v1 - Screenshot #3](http://i.imgur.com/kMdAEpk.png)](http://i.imgur.com/kMdAEpk.png)
+[![NALIKA v1 - Screenshot #3](https://i.imgur.com/kMdAEpk.png)](https://i.imgur.com/kMdAEpk.png)
 
 #### Looking for AI framework..
 
-After I did some researches on Internet, I found one so-called the "first framework" that I can start with. It was called [Artificial Intelligence Markup Language (AIML)](http://www.alicebot.org/aiml.html), a standard XML format markup language for defining the responses from the chatbot. AIML was developed by **Richard S. Wallace** and a worldwide free software community between 1995 and 2002. AIML formed the basis for what was initially a highly extended [Eliza](https://en.wikipedia.org/wiki/ELIZA) called ["A.L.I.C.E." (Artificial Linguistic Internet Computer Entity)](https://en.wikipedia.org/wiki/Artificial_Linguistic_Internet_Computer_Entity) which won the annual [Loebner Prize Competition](https://en.wikipedia.org/wiki/Loebner_Prize) in Artificial Intelligence three times and was also the Chatterbox Challenge Champion in 2004.
+After I did some researches on Internet, I found one so-called the "first framework" that I can start with. It was called [Artificial Intelligence Markup Language (AIML)](https://www.alicebot.org/aiml.html), a standard XML format markup language for defining the responses from the chatbot. AIML was developed by **Richard S. Wallace** and a worldwide free software community between 1995 and 2002. AIML formed the basis for what was initially a highly extended [Eliza](https://en.wikipedia.org/wiki/ELIZA) called ["A.L.I.C.E." (Artificial Linguistic Internet Computer Entity)](https://en.wikipedia.org/wiki/Artificial_Linguistic_Internet_Computer_Entity) which won the annual [Loebner Prize Competition](https://en.wikipedia.org/wiki/Loebner_Prize) in Artificial Intelligence three times and was also the Chatterbox Challenge Champion in 2004.
 
-So, I used [AIMLbot.dll](http://aimlbot.sourceforge.net/) library for my chatbot application written in .NET C# while getting myself to learn more about the markup language structures used in AIML as published in [this paper](http://arxiv.org/ftp/arxiv/papers/1307/1307.3091.pdf). AIML provided much better way of defining the knowledge database of my chatbot and made it looked more natural to call as an "artificial intelligence" chatbot. Below are the screenshots of my chatbot that used the AIML library.
+So, I used [AIMLbot.dll](https://aimlbot.sourceforge.net/) library for my chatbot application written in .NET C# while getting myself to learn more about the markup language structures used in AIML as published in [this paper](https://arxiv.org/ftp/arxiv/papers/1307/1307.3091.pdf). AIML provided much better way of defining the knowledge database of my chatbot and made it looked more natural to call as an "artificial intelligence" chatbot. Below are the screenshots of my chatbot that used the AIML library.
 
-[![WAYI v1 - Screenshot](http://i.imgur.com/UJjTodD.png)](http://i.imgur.com/UJjTodD.png)
+[![WAYI v1 - Screenshot](https://i.imgur.com/UJjTodD.png)](https://i.imgur.com/UJjTodD.png)
 _WAYI v1_
 
-[![WAYI v2 - Screenshot](http://i.imgur.com/3mkEzII.png)](http://i.imgur.com/3mkEzII.png)
+[![WAYI v2 - Screenshot](https://i.imgur.com/3mkEzII.png)](https://i.imgur.com/3mkEzII.png)
 _WAYI v2_
 
 #### Found a better AI library... called SIML
 
-After some time, I found another chatbot markup language library known as [Synthetic Intelligence Markup Language (SIML)](http://simlbot.com/), which was more powerful than AIML. SIML provided much better features compared to AIML. So, I changed the current markup language of my chatbot from AIML to use SIML as SIML already provided their own chatbot studio program called "Syn Chatbot Studio".
+After some time, I found another chatbot markup language library known as [Synthetic Intelligence Markup Language (SIML)](https://simlbot.com/), which was more powerful than AIML. SIML provided much better features compared to AIML. So, I changed the current markup language of my chatbot from AIML to use SIML as SIML already provided their own chatbot studio program called "Syn Chatbot Studio".
 
 Based on their website, Syn Chatbot Studio offers a comprehensive collection of tools to develop intelligent chatbots that targeted desktops, mobile and web platforms. It has Code Analysis, AIML to SIML converter, JavaScript Editor, Regex Tester and smooth Auto-Complete. Much more interestingly, it has ability to execute JavaScript function from its routine of responses. That was very cool feature since I had a lot of things I could do with JavaScript.
 
-**Links related to SIML:** [Wiki](http://wiki.syn.co.in/) / [GitHub](https://github.com/SynHub)
+**Links related to SIML:** [Wiki](https://wiki.syn.co.in/) / [GitHub](https://github.com/SynHub)
 
 ### Developing AI chatbot using JavaScript (Web-based application)
 
-Known as "W4Y1", is one of my latest AI chatbot experiments that uses JavaScript and hosted on GitHub Pages. It's not a really chatbot where people can chat for any topic of conversations because that is not my intention when I started developing it but it is more to so-called a memory program to represent a digital side of myself by holding a fragment of knowledge/information from my mind. If you have ever watched [I, Robot (2004)](http://www.imdb.com/title/tt0343818/) movie, this is basically inspired from Dr. Alfred Lanning's hologram device that is used to leave his message for Spooner's investigation while mine is just in the form of terminal-like interface, text format interaction and hosted online using GitHub Pages.
+Known as "W4Y1", is one of my latest AI chatbot experiments that uses JavaScript and hosted on GitHub Pages. It's not a really chatbot where people can chat for any topic of conversations because that is not my intention when I started developing it but it is more to so-called a memory program to represent a digital side of myself by holding a fragment of knowledge/information from my mind. If you have ever watched [I, Robot (2004)](https://www.imdb.com/title/tt0343818/) movie, this is basically inspired from Dr. Alfred Lanning's hologram device that is used to leave his message for Spooner's investigation while mine is just in the form of terminal-like interface, text format interaction and hosted online using GitHub Pages.
 
-As for the application's credits, I created "W4Y1" based on [elizabot.js](http://www.masswerk.at/elizabot/) by **Norbert Landsteiner** for the interpretation engine for AI markup language and processing, [jQuery Terminal Emulator plugin](http://terminal.jcubic.pl/) by **Jakub Jankiewicz** for the terminal-like interface (GUI), and [particles.js](http://vincentgarreau.com/particles.js/) by **Vincent Garreau** for the particles effect in the background.
+As for the application's credits, I created "W4Y1" based on [elizabot.js](https://www.masswerk.at/elizabot/) by **Norbert Landsteiner** for the interpretation engine for AI markup language and processing, [jQuery Terminal Emulator plugin](https://terminal.jcubic.pl/) by **Jakub Jankiewicz** for the terminal-like interface (GUI), and [particles.js](https://vincentgarreau.com/particles.js/) by **Vincent Garreau** for the particles effect in the background.
 
-[![W4Y1](http://i.imgur.com/7emX4MU.png)](http://i.imgur.com/7emX4MU.png)
+[![W4Y1](https://i.imgur.com/7emX4MU.png)](https://i.imgur.com/7emX4MU.png)
 _W4Y1 - Screenshot_
 
-**Demo URL to the app:** [http://heiswayi.github.io/w4y1](http://heiswayi.github.io/w4y1)
+**Demo URL to the app:** [https://heiswayi.github.io/w4y1](https://heiswayi.github.io/w4y1)
 
 N.B. Please note that "W4Y1" is just an experimental web app, and for the moment, it contains not so much interesting features yet as presented from the live demo. However, when I have the time, these are the possible ideas that I thought I'm going to implement in the future:
-- Integrate with [math.js](http://mathjs.org/) for mathematical computations.
+- Integrate with [math.js](https://mathjs.org/) for mathematical computations.
 - Implement AJAX request for accessing PHP files, so more features can be performed by PHP. Will look forward for other languages too.
 - Centralize the knowledge/information database somewhere that I could secure it.
 

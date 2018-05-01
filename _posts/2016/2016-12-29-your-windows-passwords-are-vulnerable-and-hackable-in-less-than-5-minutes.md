@@ -19,7 +19,7 @@ First, you need to download or get this tool called [mimikatz](https://github.co
 
 To perform the [LSASS](https://technet.microsoft.com/en-us/library/cc961760.aspx) dump, we will use the PowerShell script, **Out-Minidump.ps1**. The flow of cmdlet will look like this:
 
-![PowerShell cmdlet](http://i.imgur.com/1lQnyhZ.png)
+![PowerShell cmdlet](https://i.imgur.com/1lQnyhZ.png)
 
 ```powershell
 . 'G:\USERFILES\Desktop\PowerShell Playground\Out-Minidump.ps1'
@@ -40,7 +40,7 @@ As you can see, `lsass_868.dmp` is the example of LSASS dump file captured using
 sekurlsa::minidump "G:\USERFILES\Desktop\PowerShell Playground\lsass_868.dmp"
 ```
 
-![mimikatz MINIDUMP](http://i.imgur.com/OPA0g0w.png)
+![mimikatz MINIDUMP](https://i.imgur.com/OPA0g0w.png)
 
 Switching to MINIDUMP file, so now we can view the passwords. Now, run this command to display all the accounts and passwords available:
 
@@ -48,7 +48,7 @@ Switching to MINIDUMP file, so now we can view the passwords. Now, run this comm
 sekurlsa::logonPasswords full
 ```
 
-![mimikatz logonPasswords](http://i.imgur.com/nWPZUIR.jpg)
+![mimikatz logonPasswords](https://i.imgur.com/nWPZUIR.jpg)
 
 Tadaa... Now I can see my actual Microsoft Account username and password in **a plain text**. As you imagine, most of people nowadays are still using the same password for almost everything. _Too bad.._ So, I expected you can picture all the consequences with this vulnerability...
 
@@ -58,4 +58,4 @@ The fact is that the password is encrypted but it's useless as the implementatio
 
 ### The bottom line
 
-You will be safe as long as you always lock your computer when you're away. For more explanations and security advices, you might want to check the [original article here](http://www.fixedbyvonnie.com/2015/02/hack-passwords-of-windows-in-5-minutes). This short article is just to remind me or anyone else to always be careful in whatever we do especially with anything to do with our passwords and personal credential information. No system is perfect! DON'T LEAVE YOUR COMPUTER UNLOCKED.
+You will be safe as long as you always lock your computer when you're away. For more explanations and security advices, you might want to check the [original article here](https://www.fixedbyvonnie.com/2015/02/hack-passwords-of-windows-in-5-minutes). This short article is just to remind me or anyone else to always be careful in whatever we do especially with anything to do with our passwords and personal credential information. No system is perfect! DON'T LEAVE YOUR COMPUTER UNLOCKED.

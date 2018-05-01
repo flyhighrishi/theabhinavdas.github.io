@@ -93,7 +93,7 @@ Please note that, for each encryption and decryption, they requires the **same p
 
 ### Securing user password by using the hashing algorithm
 
-Other than data encryption and decryption, password hashing is the most important security factor in developing application that needs user access. The best implementation in password hashing is to use **one-way hashing technique** which means it is no longer be able to be decrypted (irreversible). Unlike the encryptions, they are usually formulated to be able to be decrypted. However, in password hashing method we can do "encrypt" it and at the end we must hash it. You may want to check the built-in functionality [password_hash](http://php.net/manual/en/function.password-hash.php) or [crypt](http://php.net/manual/en/function.crypt.php) for PHP one-way hashing algorithms.
+Other than data encryption and decryption, password hashing is the most important security factor in developing application that needs user access. The best implementation in password hashing is to use **one-way hashing technique** which means it is no longer be able to be decrypted (irreversible). Unlike the encryptions, they are usually formulated to be able to be decrypted. However, in password hashing method we can do "encrypt" it and at the end we must hash it. You may want to check the built-in functionality [password_hash](https://php.net/manual/en/function.password-hash.php) or [crypt](https://php.net/manual/en/function.crypt.php) for PHP one-way hashing algorithms.
 
 Most of the time, in some of my projects if I need custom password hashing, I use this function to hash the user password:
 

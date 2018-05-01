@@ -13,8 +13,8 @@ SerialLog is a simple console application built in .NET C# to simply log serial 
 
 ### Screenshots (v2.0)
 
-![SerialLog v2.0 #1](http://i.imgur.com/8PLBzkp.png)
+![SerialLog v2.0 #1](https://i.imgur.com/8PLBzkp.png)
 
-![SerialLog v2.0 #2](http://i.imgur.com/FUsfzvK.png)
+![SerialLog v2.0 #2](https://i.imgur.com/FUsfzvK.png)
 
-![SerialLog v2.0 #3](http://i.imgur.com/TeZVLF3.png)
+![SerialLog v2.0 #3](https://i.imgur.com/TeZVLF3.png)

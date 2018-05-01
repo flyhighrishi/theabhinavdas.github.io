@@ -17,7 +17,7 @@ But today I want to create my own cipher program and experiment with it. I decid
 
 ### Screenshot of the application
 
-![Heiswayi Nrird Cipher Program](http://i.imgur.com/AbUYj16.png)
+![Heiswayi Nrird Cipher Program](https://i.imgur.com/AbUYj16.png)
 
 ### Here's how I implemented my encoding method
 

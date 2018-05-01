@@ -11,13 +11,13 @@ Instead of using any ready-made package like WampServer, XAMPP and so on, you ca
 
 ### Apache
 
-First, you need to install Apache. It's recommended for you to read the [Platform Specific Notes](http://httpd.apache.org/docs/current/platform/windows.html) of Apache for Windows before you can proceed because it explains some Windows-specific features like running as a service that you don't have on other OSes and you probably never used before.
+First, you need to install Apache. It's recommended for you to read the [Platform Specific Notes](https://httpd.apache.org/docs/current/platform/windows.html) of Apache for Windows before you can proceed because it explains some Windows-specific features like running as a service that you don't have on other OSes and you probably never used before.
 
-As mentioned in the notes, Apache doesn't provide binaries for Windows. However, they have links to several third-party sites that provide binaries, for example [Apache Lounge](http://www.apachelounge.com/download/).
+As mentioned in the notes, Apache doesn't provide binaries for Windows. However, they have links to several third-party sites that provide binaries, for example [Apache Lounge](https://www.apachelounge.com/download/).
 
 From that website, we can download either the 32-bit version or 64-bit version. If your OS is 64-bit, you should always try to install 64-bit version of software.
 
-Here's the latest version that I used when writing this: **Apache 2.4.17 Win64** ([httpd-2.4.17-win64-VC14.zip](http://www.apachelounge.com/download/VC14/binaries/httpd-2.4.17-win64-VC14.zip)).
+Here's the latest version that I used when writing this: **Apache 2.4.17 Win64** ([httpd-2.4.17-win64-VC14.zip](https://www.apachelounge.com/download/VC14/binaries/httpd-2.4.17-win64-VC14.zip)).
 
 Once downloaded, just extract the `Apache24` folder to the root of your `C` drive, so that you will have a path like this `C:\Apache24\bin`.
 
@@ -30,11 +30,11 @@ httpd.exe
 
 Normally, it shouldn't print any errors.
 
-If you get an error dialog stating that `MSVCR110.dll` is missing, you'll need to install the [Visual C++ Redistributable for Visual Studio 2012](http://www.microsoft.com/en-us/download/details.aspx?id=30679). If it's saying that it can't bind to port 80, check if another application uses that port. Skype application is known to use port 80 and 443 by default. You may need to [uncheck "Use port 80 and 443 as alternatives for incoming connections" in its advanced connection settings](http://i.stack.imgur.com/WKpiY.png) and restart your Skype to apply the changes.
+If you get an error dialog stating that `MSVCR110.dll` is missing, you'll need to install the [Visual C++ Redistributable for Visual Studio 2012](https://www.microsoft.com/en-us/download/details.aspx?id=30679). If it's saying that it can't bind to port 80, check if another application uses that port. Skype application is known to use port 80 and 443 by default. You may need to [uncheck "Use port 80 and 443 as alternatives for incoming connections" in its advanced connection settings](https://i.stack.imgur.com/WKpiY.png) and restart your Skype to apply the changes.
 
 A warning like `Could not reliably determine the server's fully qualified domain name` can be ignored for now.
 
-Then, open a web browser and browse to `http://localhost`. If you see a page saying `It works!`, then it means your Apache installation is working.
+Then, open a web browser and browse to `https://localhost`. If you see a page saying `It works!`, then it means your Apache installation is working.
 
 The warning above can be fixed by editing `C:\Apache24\conf\httpd.conf`, uncomment and change it into something like this:
 
@@ -55,9 +55,9 @@ Now you have a new service in Services (Windows+R, then type `services.msc` then
 
 ### PHP
 
-Download the latest PHP binaries from the [official PHP for Windows download page](http://windows.php.net/download/), choose **Thread Safe** version that matches your Apache installation (x86 for 32-bit, x64 for 64-bit).
+Download the latest PHP binaries from the [official PHP for Windows download page](https://windows.php.net/download/), choose **Thread Safe** version that matches your Apache installation (x86 for 32-bit, x64 for 64-bit).
 
-The version I used is **VC11 x64 Thread Safe** ([php-5.6.14-Win32-VC11-x64.zip](http://windows.php.net/downloads/releases/php-5.6.14-Win32-VC11-x64.zip)).
+The version I used is **VC11 x64 Thread Safe** ([php-5.6.14-Win32-VC11-x64.zip](https://windows.php.net/downloads/releases/php-5.6.14-Win32-VC11-x64.zip)).
 
 Create an empty `PHP` folder at the root of your C drive, extract the archive there. You should have a path like `C:\PHP\ext`.
 
@@ -91,11 +91,11 @@ LoadModule php5_module C:/PHP/php5apache2_4.dll
 
 Now try to start Apache manually or restart the service, if you see no errors, it means your configurations file is valid and PHP is _most likely working_.
 
-You can test your PHP installation by creating a file like `info.php` with `<?php phpinfo();` inside. Then browse to `http://localhost/info.php`, you should see quite a bit of info about your system and your PHP installation and all its modules.
+You can test your PHP installation by creating a file like `info.php` with `<?php phpinfo();` inside. Then browse to `https://localhost/info.php`, you should see quite a bit of info about your system and your PHP installation and all its modules.
 
 ### MySQL
 
-On the [MySQL Installer download page](http://dev.mysql.com/downloads/installer/), download the web installer version. Mine is [mysql-installer-web-community-5.6.27.0.msi](http://dev.mysql.com/downloads/file.php?id=459309) - it is the latest version as I'm writing this article.
+On the [MySQL Installer download page](https://dev.mysql.com/downloads/installer/), download the web installer version. Mine is [mysql-installer-web-community-5.6.27.0.msi](https://dev.mysql.com/downloads/file.php?id=459309) - it is the latest version as I'm writing this article.
 
 The installer will automatically install the appropriate version (32-bit or 64-bit) depending on your system. During the installation, it might install all the available products and may ask for some dependencies like Python for MySQL Connector/Python. You may ignored it first and just proceed. I ignored it because I don't need those MySQL Connectors and I'm going to remove them anyway.
 
@@ -119,7 +119,7 @@ Previously, I rarely use MySQL Workbench. Most of the time, I use phpMyAdmin. An
 
 Go to [phpMyAdmin download page](https://www.phpmyadmin.net/downloads/), as for me I chose [phpMyAdmin-4.5.0.2-english.zip](https://files.phpmyadmin.net/phpMyAdmin/4.5.0.2/phpMyAdmin-4.5.0.2-english.zip). Extract the archive into the Apache `htdocs` folder and rename `phpMyAdmin-4.5.0.2-english` into `phpmyadmin`. You should have a path like this; `C:\Apache24\htdocs\phpmyadmin`.
 
-`C:\Apache24\htdocs` is your Apache WWW folder. So, your phpMyAdmin can be accessed by visiting the URL: `http://localhost/phpmyadmin`.
+`C:\Apache24\htdocs` is your Apache WWW folder. So, your phpMyAdmin can be accessed by visiting the URL: `https://localhost/phpmyadmin`.
 
 Inside `C:\Apache24\htdocs\phpmyadmin`, look for `config.sample.inc.php` then rename it into `config.inc.php`. Open the file, fill in the code line:
 
@@ -133,7 +133,7 @@ For example:
 $cfg['blowfish_secret'] = 'W4Y1'; /* YOU MUST FILL IN THIS FOR COOKIE AUTH! */
 ```
 
-By default, nothing much need to configure since phpMyAdmin automatically detect the port used by MySQL Server. So, you can directly access `http://localhost/phpmyadmin` and login (username and password) as what you set during MySQL installation.
+By default, nothing much need to configure since phpMyAdmin automatically detect the port used by MySQL Server. So, you can directly access `https://localhost/phpmyadmin` and login (username and password) as what you set during MySQL installation.
 
 ### Composer (optional)
 

@@ -23,8 +23,8 @@ After the program finished running, an output text file will be created within t
 
 Example (opened using Notepad2-mod app):
 
-![Output file](http://i.imgur.com/qaUZ9n3.png)
+![Output file](https://i.imgur.com/qaUZ9n3.png)
 
 ### Source Code and Downloads
 
-The source code is available on my [GitHub](https://github.com/heiswayi/DirectoryCrawler) repository and compiled using Visual Studio 2015 Community. The source code is released under [MIT](http://heiswayi.github.io/mit-license) license. The latest binary package can be download from the [release page](https://github.com/heiswayi/DirectoryCrawler/releases).
+The source code is available on my [GitHub](https://github.com/heiswayi/DirectoryCrawler) repository and compiled using Visual Studio 2015 Community. The source code is released under [MIT](https://heiswayi.github.io/mit-license) license. The latest binary package can be download from the [release page](https://github.com/heiswayi/DirectoryCrawler/releases).

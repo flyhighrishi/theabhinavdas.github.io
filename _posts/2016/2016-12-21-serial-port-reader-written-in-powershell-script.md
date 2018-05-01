@@ -23,7 +23,7 @@ This is the initial release of my lightweight Serial Port Reader written in Powe
 .EXAMPLE
    ./SerialPortReader.ps1 -PortName COM3 -BaudRate 9600 -Parity None -DataBits 8 -StopBits One -Handshake None -OutputFile ".\output1.log" -ReadInterval 1000
 .LINK
-   http://heiswayi.github.io
+   https://heiswayi.github.io
 .AUTHOR
    Heiswayi Nrird, 2016
 .LICENSE
@@ -80,7 +80,7 @@ Param
 .EXAMPLE
    SerialPortReader -PortName COM3 -BaudRate 9600 -Parity None -DataBits 8 -StopBits One -Handshake None -OutputFile ".\output1.log" -ReadInterval 1000
 .LINK
-   http://heiswayi.github.io
+   https://heiswayi.github.io
 .AUTHOR
    Heiswayi Nrird, 2016
 .LICENSE

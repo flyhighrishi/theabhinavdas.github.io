@@ -11,32 +11,32 @@ comments: true
 
 A couple of weeks ago I was asked to gather and compile a proper list of equipment that have been borrowed by any engineer who is working with my department. However, the list that I received is recorded in a MS Excel file. So, I have thought that instead of waiting any of the engineers to send me the updated list file whenever I need to check the status of the equipment, I should create a simple web application hosted in my company network for them to easily update the equipment records instantly, and they can do that at anywhere and anytime. Finally, I decided to spend some hours during my weekend to develop that kind of application.
 
-The idea is finally realized! I called it "Equipment Tracking" or in short is "Etrac". Etrac is built from scratch using [DataTables](https://datatables.net/), [jQuery](https://jquery.com/), [PHP](http://php.net/), [MySQL](https://www.mysql.com/) and [Bootstrap](http://getbootstrap.com/) with [Google-style theme](https://todc.github.io/todc-bootstrap/). Etrac is featured with a very simple user authentication module that I created before to use in old PHP projects. Now, with this application set up on intranet webserver, whenever I need to get the latest and updated list of the borrowed equipment, I can just visit the application URL, export/print the list immediately. Etrac also supports exporting to PDF, Excel and CSV file format. Below are some screenshots showing how Etrac looked like.
+The idea is finally realized! I called it "Equipment Tracking" or in short is "Etrac". Etrac is built from scratch using [DataTables](https://datatables.net/), [jQuery](https://jquery.com/), [PHP](https://php.net/), [MySQL](https://www.mysql.com/) and [Bootstrap](https://getbootstrap.com/) with [Google-style theme](https://todc.github.io/todc-bootstrap/). Etrac is featured with a very simple user authentication module that I created before to use in old PHP projects. Now, with this application set up on intranet webserver, whenever I need to get the latest and updated list of the borrowed equipment, I can just visit the application URL, export/print the list immediately. Etrac also supports exporting to PDF, Excel and CSV file format. Below are some screenshots showing how Etrac looked like.
 
 ### Equipment Tracking (Etrac) v1.0 Screenshots
 
-[![Screenshot1](http://i.imgur.com/dzJf6Wy.png)](http://i.imgur.com/dzJf6Wy.png)
+[![Screenshot1](https://i.imgur.com/dzJf6Wy.png)](https://i.imgur.com/dzJf6Wy.png)
 *Figure 1 (above): List of equipment displayed using DataTables jQuery plugin without user login.*
 
-[![Screenshot2](http://i.imgur.com/U0KobRL.png)](http://i.imgur.com/U0KobRL.png)
+[![Screenshot2](https://i.imgur.com/U0KobRL.png)](https://i.imgur.com/U0KobRL.png)
 *Figure 2 (above): Login page.*
 
-[![Screenshot3](http://i.imgur.com/Lsx4JkX.png)](http://i.imgur.com/Lsx4JkX.png)
+[![Screenshot3](https://i.imgur.com/Lsx4JkX.png)](https://i.imgur.com/Lsx4JkX.png)
 *Figure 3 (above): List of equipment with logged user. If the user has the right permission given, the user can click CRUD buttons such as "Add new record", "Batch delete..." or "Update" button.*
 
-[![Screenshot4](http://i.imgur.com/xyXCltl.png)](http://i.imgur.com/xyXCltl.png)
+[![Screenshot4](https://i.imgur.com/xyXCltl.png)](https://i.imgur.com/xyXCltl.png)
 *Figure 4 (above): Adding new record via Modal dialog.*
 
-[![Screenshot5](http://i.imgur.com/s2Sud2z.png)](http://i.imgur.com/s2Sud2z.png)
+[![Screenshot5](https://i.imgur.com/s2Sud2z.png)](https://i.imgur.com/s2Sud2z.png)
 *Figure 5 (above): When user clicks on delete button, a confirmation will pop up to double-confirm before the delete action can be performed.*
 
-[![Screenshot6](http://i.imgur.com/ulkAEDG.png)](http://i.imgur.com/ulkAEDG.png)
+[![Screenshot6](https://i.imgur.com/ulkAEDG.png)](https://i.imgur.com/ulkAEDG.png)
 *Figure 6 (above): Search or filter can be performed easily when using this DataTables jQuery plugin.*
 
-[![Screenshot7](http://i.imgur.com/TTdjjVV.png)](http://i.imgur.com/TTdjjVV.png)
+[![Screenshot7](https://i.imgur.com/TTdjjVV.png)](https://i.imgur.com/TTdjjVV.png)
 *Figure 7 (above): Super simple user profile settings page.*
 
-[![Screenshot8](http://i.imgur.com/sluB9Lk.png)](http://i.imgur.com/sluB9Lk.png)
+[![Screenshot8](https://i.imgur.com/sluB9Lk.png)](https://i.imgur.com/sluB9Lk.png)
 *Figure 8 (above): List of registered users.*
 
 ### Etrac v1.0 DataTables Code Snippets

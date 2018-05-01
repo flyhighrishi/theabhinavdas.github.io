@@ -54,6 +54,6 @@ namespace SingletonExample
 
 Example output:
 
-![SingletonExample](http://i.imgur.com/Vnbsea3.png)
+![SingletonExample](https://i.imgur.com/Vnbsea3.png)
 
 This singleton pattern is simple and perform well, best use with time-consuming operation class.

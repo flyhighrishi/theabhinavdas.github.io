@@ -39,9 +39,9 @@ using(var results = searcher.Get()) {
 
 Screenshot:
 
-![Listing all running applications](http://i.imgur.com/z5hJFH8.png)
+![Listing all running applications](https://i.imgur.com/z5hJFH8.png)
 
-![To kill the running application](http://i.imgur.com/TJG1sV1.png)
+![To kill the running application](https://i.imgur.com/TJG1sV1.png)
 
 Here are the C# code I use to kill the application, open file location or show application File Properties dialog from the WMI query results:
 
@@ -101,11 +101,11 @@ public static bool ShowFileProperties(string Filename) {
 
 To filter for specific process name (application executable name without extension), there is a function called "Customize filter..." on the Mini App Killer. When you click it, a window for adding process name will be shown as below:
 
-![Customize filter...](http://i.imgur.com/CxYg1gU.png)
+![Customize filter...](https://i.imgur.com/CxYg1gU.png)
 
 Mini App Killer program will list all running applications that contain the process name as defined in the "Customize filter..." window when "Enable filtered by process name..." checkbox is **checked**.
 
-![Filtered by process name](http://i.imgur.com/jHb3HqI.png)
+![Filtered by process name](https://i.imgur.com/jHb3HqI.png)
 
 This is how WMI query code looked like for filtering the target process names:
 

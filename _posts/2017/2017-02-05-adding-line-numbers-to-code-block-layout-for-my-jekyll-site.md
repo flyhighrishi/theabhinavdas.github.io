@@ -73,4 +73,4 @@ pre {
 }
 ```
 
-If you want to try and play around with the demo, you can check my [CodePen here](http://codepen.io/heiswayi/pen/jyKYyg), but please note that the markdown in the CodePen does not have automatic code syntax-highlighting like GitHub Pages did for this Jekyll site. Have fun coding!
+If you want to try and play around with the demo, you can check my [CodePen here](https://codepen.io/heiswayi/pen/jyKYyg), but please note that the markdown in the CodePen does not have automatic code syntax-highlighting like GitHub Pages did for this Jekyll site. Have fun coding!

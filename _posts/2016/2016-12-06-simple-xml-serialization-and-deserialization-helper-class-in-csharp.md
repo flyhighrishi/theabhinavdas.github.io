@@ -263,7 +263,7 @@ Jason Bourne
 
 > "Data at the root level is invalid. Line 1, position 1."
 
-In the beginning of writing this helper class, I have encountered with this kind of exception message when I tried to deserialize the XML string. After I did some researches on Google, I found a [blog](http://www.ipreferjim.com/2014/09/data-at-the-root-level-is-invalid-line-1-position-1/) that explained the root cause and detailed solution. That bug is known as **BOM**, a Unicode character used to signal the endianness (byte order) of a text file or stream.
+In the beginning of writing this helper class, I have encountered with this kind of exception message when I tried to deserialize the XML string. After I did some researches on Google, I found a [blog](https://www.ipreferjim.com/2014/09/data-at-the-root-level-is-invalid-line-1-position-1/) that explained the root cause and detailed solution. That bug is known as **BOM**, a Unicode character used to signal the endianness (byte order) of a text file or stream.
 
 Below is the code snippet fix that I have applied inside serializing method before outputting to XML string in order to resolve the issue:
 

@@ -1,33 +1,33 @@
 # Basic site info
-title:              "heiswayi nrird •••"
-description:        "Life Experience, Technology & Research"
-keywords:           "heiswayi nrird, personal blog, software engineer, life experience, technology and research"
-logo_text:          "Heiswayi Nrird"
+title:              "abhinav das •••"
+description:        "stuff that goes on in my head"
+keywords:           "abhinav das, personal blog, software engineer, life experience, technology and research, blockchain, ico, ico advisor, bitcoin, cryptocurrency expert, hyperledger, blockchain for business, linux foundation certified, token, token economy, assets, insuretech, computer vision, artificial intelligence, machine learning, data sciences, iot"
+logo_text:          "Abhinav Das"
 show_tagline:       true # edit file in /_includes/tagline.html
 show_social_icons:  true # edit file in /_includes/social_links.html
 og_locale:          "en_US"
 cover:              "/assets/logo.png" # site image cover
 
 # Site URL settings
-url:                https://heiswayi.nrird.com # main url
+url:                https://theabhinavdas.github.io # main url
 baseurl:            null # for gh-pages
-enforce_ssl:        heiswayi.nrird.com
-github_post_dir:    https://github.com/heiswayi/heiswayi.github.io/blob/master/
+enforce_ssl:        theabhinavdas.github.io
+github_post_dir:    https://github.com/theabhinavdas/theabhinavdas.github.io/blob/master/
 
 # Site author info
 author:
-  name:             "Heiswayi Nrird"
-  email:            hnrird@gmail.com
-  github_username:  heiswayi
-  twitter_username: heiswayi
+  name:             "Abhinav Das"
+  email:            x at abhinav das dot com
+  github_username:  theabhinavdas
+  twitter_username: theabhinavdas
   facebook_url:     
 
 # Disqus comment settings
 disqus_enabled:     false
-disqus_shortname:   hnbloggithub
+disqus_shortname:   abhinav
 
 # Google Analytics ID
-google_analytics_code: UA-58296043-7
+google_analytics_code: 
 
 # Build settings
 source:             ./
@@ -35,7 +35,7 @@ destination:        ./_site
 permalink:          /:year/:title
 markdown:           kramdown
 highlighter:        rouge
-timezone:           Asia/Kuala_Lumpur
+timezone:           Asia/Kolkata
 exclude:            ["README.md", "LICENSE.md", "CHANGELOG.md", "google9bb6a6dc60c4e360.html"]
 
 # Site configurations

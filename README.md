@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/WnafFNG.jpg" width="50%" height="50%" alt="missing troll face image"/>
+
 # Version 1.x
 
 Built from scratch using [Jekyll](https://jekyllrb.com/) and hosted  by [GitHub Pages](https://pages.github.com). 

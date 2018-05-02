@@ -9,9 +9,9 @@ og_locale:          "en_US"
 cover:              "/assets/logo.png" # site image cover
 
 # Site URL settings
-url:                https://theabhinavdas.github.io # main url
+url:                https://abhinavdas.com # main url
 baseurl:            null # for gh-pages
-enforce_ssl:        theabhinavdas.github.io
+enforce_ssl:        abhinavdas.com
 github_post_dir:    https://github.com/theabhinavdas/theabhinavdas.github.io/blob/master/
 
 # Site author info

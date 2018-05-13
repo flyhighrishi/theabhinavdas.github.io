@@ -1,7 +1,7 @@
 ---
 layout: post
 title: To blockchain or not to blockchain
-description: Most common blockchain abuses today
+description: Blockchain has become really popular. Overhyped infact. This can be attributed to the recent spike in price of Bitcoin.
 keywords: blockchain, bitcoin, cryptocurrency, distributed ledger
 tags: [Blockchain, Distributed Ledger]
 comments: true

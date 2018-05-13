@@ -7,7 +7,9 @@ tags: [Blockchain, Cryptocurrency, Ethereum, Tutorial]
 comments: true
 ---
 
-Ethereum is a very powerful platform for building dApps (decentralized apps). For those that are confused about issuing tokens, they have a detailed solidity contract that can do exactly this on their webiste ([here](https://www.ethereum.org/token)). Let us walk through this sample code first.
+Ethereum is a very powerful platform for building dApps (decentralized apps). For those that are confused about issuing tokens, they have a detailed solidity contract that can do exactly this on their website ([here](https://www.ethereum.org/token)). Let us walk through the available sample code first.
+
+### MVC (Minimum Viable Contract)
 
 ```solidity
 pragma solidity ^0.4.20;
@@ -32,3 +34,7 @@ contract MyToken {
     }
 }
 ```
+
+This contract enables transferring tokens between users on the same blockchain. It defines a transfer function and also gives the creator all of the initial tokens.
+
+## Not nearly done with this post - A

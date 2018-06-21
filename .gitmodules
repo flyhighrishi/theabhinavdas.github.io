@@ -1,0 +1,3 @@
+[submodule "YASCC"]
+	path = YASCC
+	url = https://github.com/carlosqsilva/YASCC.git
